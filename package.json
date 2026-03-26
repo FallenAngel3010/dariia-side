@@ -8,8 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d disc"
+    "deploy": "npm run build && gh-pages -d dist && echo 'Your site is live at: https://Fallenangel3010.github.io/dariia-side/'"
   },
   "devDependencies": {
     "vite": "^8.0.1"

@@ -1,8 +1,49 @@
 :root {
-    background: black;
+    background: gray;
     color: white;
 }
 
-.test {
-    font-size: 20vh;
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    color: white;
+}
+
+/*svg {
+    background: red;
+}*/
+
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head_title {
+    font-size: 10vh;
+}
+
+.start {
+    font-size: 4vh;
+    color: red;
+    text-decoration: underline;
+}
+
+.what_i_like {
+    font-size: 3vh;
+    width: 75%;
+    text-align: center;
+    color: red
 }
