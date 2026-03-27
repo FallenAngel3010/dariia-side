@@ -3,10 +3,10 @@
     color: white;
 }
 
-html, body {
+/*html, body {
     height: 100%;
     margin: 0;
-}
+}*/
 
 body {
     display: flex;
@@ -20,6 +20,13 @@ body {
     background: red;
 }*/
 
+
+.cont {
+    font-size: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 .content {
     position: absolute;
